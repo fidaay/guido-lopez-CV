@@ -1,0 +1,198 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 1416.67px;
+  width: 100%;
+
+  background-color: #525659;
+}
+.canvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 35.56cm;
+  width: 25.19cm;
+
+  background-color: white;
+}
+.page,
+.personal-info,
+.resume {
+  border-color: hsla(0, 0%, 0%, 0.0625);
+  border-style: solid;
+  border-radius: 12px;
+}
+.page {
+  display: flex;
+
+  height: 34.31cm;
+  width: 23.94cm;
+
+  border-width: 1px;
+
+  background-color: white;
+  position: relative;
+  box-shadow: 15px 15px 15px 0px hsla(0, 0%, 0%, 0.275);
+}
+.personal-info {
+  width: 302.5px;
+  max-width: 302.5px;
+  min-width: 302.5px;
+
+  height: 100%;
+
+  border-width: 0px;
+
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
+  background-color: #343d4b;
+}
+.resume {
+  width: 100%;
+  height: 100%;
+
+  border-width: 0px;
+
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+
+  background-color: white;
+}
+.title {
+  font-size: 21.5px;
+  font-weight: 700;
+
+  margin: 0;
+  margin-top: 8px;
+}
+.paragraphs {
+  font-size: 14px;
+  font-weight: 500;
+
+  margin: 0;
+  margin-top: 10px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-left: 50px;
+  padding-right: 30px;
+
+  margin-top: 0px;
+}
+.header > hr {
+  margin: 0;
+
+  margin-left: 4px;
+
+  width: 100%;
+
+  margin-top: 6px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+  margin-left: -24px;
+
+  width: 100%;
+}
+.section {
+  width: 495px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+
+  width: 525px;
+}
+.experiences {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 9px;
+}
+.date {
+  width: 160px;
+}
+.date > span {
+  display: inline-block;
+
+  width: 85px;
+
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 500;
+}
+.experience,
+.role,
+.key-responsibilities {
+  margin: 0;
+
+  font-size: 16.5px;
+  font-weight: 500;
+}
+.experience {
+  font-weight: 700;
+}
+.role {
+  margin-top: 0px;
+}
+.key-responsibilities {
+  font-weight: 600;
+  margin-top: 2px;
+}
+.list {
+  margin: 0;
+  margin-left: -20px;
+  margin-top: 4px;
+}
+.list > li {
+  margin: 0;
+}
+.list li:last-child {
+  margin-top: 3.75px;
+}
+.bookmark-line {
+  width: 1px;
+  height: 1125px;
+
+  margin-top: 12.5px;
+  margin-left: 35px;
+
+  position: absolute;
+
+  border-right: 2px solid hsl(225, 4%, 61%);
+}
+.bookmark {
+  width: 35px;
+  height: 25px;
+
+  margin-left: -10px;
+
+  position: absolute;
+
+  background-color: hsl(222, 15%, 22%);
+
+  clip-path: polygon(0 0, 100% 0, 75% 50%, 100% 100%, 0 100%, 0% 50%);
+}
+.shadow {
+  width: 11px;
+  height: 10px;
+
+  margin-top: 25px;
+  margin-left: -10px;
+
+  position: absolute;
+
+  background-color: hsl(222, 15%, 12%);
+
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
