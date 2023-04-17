@@ -25,14 +25,14 @@ function App() {
               <hr />
 
               <h3>Address</h3>
-              <span>Huehuetenango, Guatemala</span>
+              <span>Guatemala</span>
 
               <h3>Phone</h3>
               <a href='tel:+502 5533 2046'>+(502) 5533 2046</a>
 
               <h3>E-mail</h3>
-              <a href='mailto:guiidolopez@outlook.com'>
-                guiidolopez@outlook.com
+              <a href='mailto:guiidolopez@hotmail.com'>
+                guiidolopez@hotmail.com
               </a>
 
               <h3>LinkedIn</h3>
@@ -46,11 +46,11 @@ function App() {
 
               <h3>Web</h3>
               <a
-                href='http://n3k3.com'
+                href='https://fidaay.github.io/guido-lopez-CV/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                n3k3.com
+                Guido López CV
               </a>
             </div>
 
@@ -454,5 +454,3 @@ function App() {
 }
 
 export default App;
-
-// Walmart - outsourcing from BDG S.A.
